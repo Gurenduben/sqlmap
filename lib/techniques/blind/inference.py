@@ -1026,7 +1026,7 @@ def bisection(payload, expression, length=None, charsetType=None, firstChar=None
                         else:
                             break
 
-                        # NOTE: https://github.com/sqlmapproject/sqlmap/issues/4629
+                        # NOTE: https://github.com/gurenduben/sqlmap/issues/4629
                         if not isListLike(threadData.shared.value):
                             break
 

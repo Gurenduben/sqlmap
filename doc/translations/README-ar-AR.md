@@ -1,6 +1,6 @@
 # sqlmap
 
-[![.github/workflows/tests.yml](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml) [![Python 2.7|3.x](https://img.shields.io/badge/python-2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/sqlmapproject/sqlmap/master/LICENSE) [![X](https://img.shields.io/badge/x-@sqlmap-blue.svg)](https://x.com/sqlmap)
+[![.github/workflows/tests.yml](https://github.com/gurenduben/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/gurenduben/sqlmap/actions/workflows/tests.yml) [![Python 2.7|3.x](https://img.shields.io/badge/python-2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/gurenduben/sqlmap/master/LICENSE) [![X](https://img.shields.io/badge/x-@sqlmap-blue.svg)](https://x.com/sqlmap)
 
 <div dir=rtl>
 
@@ -11,22 +11,22 @@
 
 <div dir=ltr>
 
-![Screenshot](https://raw.github.com/wiki/sqlmapproject/sqlmap/images/sqlmap_screenshot.png)
+![Screenshot](https://raw.github.com/wiki/gurenduben/sqlmap/images/sqlmap_screenshot.png)
 
 <div dir=rtl>
 
-يمكنك زيارة [مجموعة لقطات الشاشة](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) التي توضح بعض الميزات في الويكي.
+يمكنك زيارة [مجموعة لقطات الشاشة](https://github.com/gurenduben/sqlmap/wiki/Screenshots) التي توضح بعض الميزات في الويكي.
 
 التثبيت
 ----
 
-يمكنك تحميل أحدث إصدار tarball بالنقر [هنا](https://github.com/sqlmapproject/sqlmap/tarball/master) أو أحدث إصدار zipball بالنقر [هنا](https://github.com/sqlmapproject/sqlmap/zipball/master).
+يمكنك تحميل أحدث إصدار tarball بالنقر [هنا](https://github.com/gurenduben/sqlmap/tarball/master) أو أحدث إصدار zipball بالنقر [هنا](https://github.com/gurenduben/sqlmap/zipball/master).
 
-يفضل تحميل sqlmap عن طريق استنساخ مستودع [Git](https://github.com/sqlmapproject/sqlmap):
+يفضل تحميل sqlmap عن طريق استنساخ مستودع [Git](https://github.com/gurenduben/sqlmap):
 
 <div dir=ltr>
 
-    git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+    git clone --depth 1 https://github.com/gurenduben/sqlmap.git sqlmap-dev
 
 <div dir=rtl>
 
@@ -52,19 +52,19 @@
 <div dir=rtl>
 
 يمكنك العثور على مثال للتشغيل [هنا](https://asciinema.org/a/46601).
-للحصول على نظرة عامة على إمكانيات sqlmap، وقائمة الميزات المدعومة، ووصف لجميع الخيارات والمفاتيح، مع الأمثلة، ننصحك بمراجعة [دليل المستخدم](https://github.com/sqlmapproject/sqlmap/wiki/Usage).
+للحصول على نظرة عامة على إمكانيات sqlmap، وقائمة الميزات المدعومة، ووصف لجميع الخيارات والمفاتيح، مع الأمثلة، ننصحك بمراجعة [دليل المستخدم](https://github.com/gurenduben/sqlmap/wiki/Usage).
 
 الروابط
 ----
 
 * الصفحة الرئيسية: https://sqlmap.org
-* التحميل: [&#x202A;.tar.gz&#x202C;](https://github.com/sqlmapproject/sqlmap/tarball/master) أو [&#x202A;.zip&#x202C;](https://github.com/sqlmapproject/sqlmap/zipball/master)
-* تغذية التحديثات RSS: https://github.com/sqlmapproject/sqlmap/commits/master.atom
-* تتبع المشكلات: https://github.com/sqlmapproject/sqlmap/issues
-* دليل المستخدم: https://github.com/sqlmapproject/sqlmap/wiki
-* الأسئلة الشائعة: https://github.com/sqlmapproject/sqlmap/wiki/FAQ
+* التحميل: [&#x202A;.tar.gz&#x202C;](https://github.com/gurenduben/sqlmap/tarball/master) أو [&#x202A;.zip&#x202C;](https://github.com/gurenduben/sqlmap/zipball/master)
+* تغذية التحديثات RSS: https://github.com/gurenduben/sqlmap/commits/master.atom
+* تتبع المشكلات: https://github.com/gurenduben/sqlmap/issues
+* دليل المستخدم: https://github.com/gurenduben/sqlmap/wiki
+* الأسئلة الشائعة: https://github.com/gurenduben/sqlmap/wiki/FAQ
 * تويتر: [@sqlmap](https://x.com/sqlmap)
 * العروض التوضيحية: [https://www.youtube.com/user/inquisb/videos](https://www.youtube.com/user/inquisb/videos)
 * ساحة التدريب: https://sekumart.sekuripy.hr
 * الأبحاث: https://www.sekuripy.hr/labs/sqlmap/#research
-* لقطات الشاشة: https://github.com/sqlmapproject/sqlmap/wiki/Screenshots 
+* لقطات الشاشة: https://github.com/gurenduben/sqlmap/wiki/Screenshots 

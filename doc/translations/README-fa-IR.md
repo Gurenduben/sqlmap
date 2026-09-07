@@ -1,6 +1,6 @@
 # sqlmap
 
-[![.github/workflows/tests.yml](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml) [![Python 2.7|3.x](https://img.shields.io/badge/python-2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/sqlmapproject/sqlmap/master/LICENSE) [![x](https://img.shields.io/badge/x-@sqlmap-blue.svg)](https://x.com/sqlmap)
+[![.github/workflows/tests.yml](https://github.com/gurenduben/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/gurenduben/sqlmap/actions/workflows/tests.yml) [![Python 2.7|3.x](https://img.shields.io/badge/python-2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/gurenduben/sqlmap/master/LICENSE) [![x](https://img.shields.io/badge/x-@sqlmap-blue.svg)](https://x.com/sqlmap)
 
 
 <div dir=rtl>
@@ -18,18 +18,18 @@
 
 
 
-![Screenshot](https://raw.github.com/wiki/sqlmapproject/sqlmap/images/sqlmap_screenshot.png)
+![Screenshot](https://raw.github.com/wiki/gurenduben/sqlmap/images/sqlmap_screenshot.png)
 
 
 <div dir=rtl>
 
-برای نمایش [مجموعه ای از اسکریپت‌ها](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) می‌توانید از دانشنامه دیدن کنید.
+برای نمایش [مجموعه ای از اسکریپت‌ها](https://github.com/gurenduben/sqlmap/wiki/Screenshots) می‌توانید از دانشنامه دیدن کنید.
 
 
 نصب
 ----
 
-برای دانلود اخرین نسخه tarball، با کلیک در [اینجا](https://github.com/sqlmapproject/sqlmap/tarball/master) یا دانلود اخرین نسخه zipball با کلیک در [اینجا](https://github.com/sqlmapproject/sqlmap/zipball/master) میتوانید این کار را انجام دهید.
+برای دانلود اخرین نسخه tarball، با کلیک در [اینجا](https://github.com/gurenduben/sqlmap/tarball/master) یا دانلود اخرین نسخه zipball با کلیک در [اینجا](https://github.com/gurenduben/sqlmap/zipball/master) میتوانید این کار را انجام دهید.
 
 
 نحوه استفاده
@@ -66,7 +66,7 @@
 <div dir=rtl>
     
 
-برای اجرای سریع و ساده ابزار می توانید از [اینجا](https://asciinema.org/a/46601) استفاده کنید. برای دریافت اطلاعات بیشتر در رابطه با قابلیت ها ، امکانات قابل پشتیبانی و لیست کامل امکانات و دستورات همراه با مثال می‌ توانید به [راهنمای](https://github.com/sqlmapproject/sqlmap/wiki/Usage) `sqlmap` سر بزنید.
+برای اجرای سریع و ساده ابزار می توانید از [اینجا](https://asciinema.org/a/46601) استفاده کنید. برای دریافت اطلاعات بیشتر در رابطه با قابلیت ها ، امکانات قابل پشتیبانی و لیست کامل امکانات و دستورات همراه با مثال می‌ توانید به [راهنمای](https://github.com/gurenduben/sqlmap/wiki/Usage) `sqlmap` سر بزنید.
 
 
 لینک‌ها
@@ -74,13 +74,13 @@
 
 
 * خانه: https://sqlmap.org
-* دانلود: [.tar.gz](https://github.com/sqlmapproject/sqlmap/tarball/master) یا [.zip](https://github.com/sqlmapproject/sqlmap/zipball/master)
-* نظرات: https://github.com/sqlmapproject/sqlmap/commits/master.atom
-* پیگیری مشکلات: https://github.com/sqlmapproject/sqlmap/issues
-* راهنمای کاربران: https://github.com/sqlmapproject/sqlmap/wiki
-* سوالات متداول: https://github.com/sqlmapproject/sqlmap/wiki/FAQ
+* دانلود: [.tar.gz](https://github.com/gurenduben/sqlmap/tarball/master) یا [.zip](https://github.com/gurenduben/sqlmap/zipball/master)
+* نظرات: https://github.com/gurenduben/sqlmap/commits/master.atom
+* پیگیری مشکلات: https://github.com/gurenduben/sqlmap/issues
+* راهنمای کاربران: https://github.com/gurenduben/sqlmap/wiki
+* سوالات متداول: https://github.com/gurenduben/sqlmap/wiki/FAQ
 * توییتر: [@sqlmap](https://x.com/sqlmap)
 * رسانه: [https://www.youtube.com/user/inquisb/videos](https://www.youtube.com/user/inquisb/videos)
 * زمین تمرین: https://sekumart.sekuripy.hr
 * پژوهش: https://www.sekuripy.hr/labs/sqlmap/#research
-* تصاویر: https://github.com/sqlmapproject/sqlmap/wiki/Screenshots
+* تصاویر: https://github.com/gurenduben/sqlmap/wiki/Screenshots

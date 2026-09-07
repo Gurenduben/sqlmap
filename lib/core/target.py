@@ -239,7 +239,7 @@ def _setRequestParams():
                     conf.data = re.sub(r"(<(?P<name>[^>]+)( [^<]*)?>)([^<]+)(</\2)", functools.partial(process, repl=r"\g<1>\g<4>%s\g<5>" % kb.customInjectionMark), conf.data)
 
                     # Also expose XML attribute values (e.g. <item id="1">) as injection points, not just
-                    # element text (Reference: https://github.com/sqlmapproject/sqlmap/issues/5993). Done per
+                    # element text (Reference: https://github.com/gurenduben/sqlmap/issues/5993). Done per
                     # opening tag (skipping <?...?> declarations, <!...> and closing tags) so every attribute
                     # is covered while the XML declaration/namespaces are left intact.
                     def processAttributes(match):
@@ -356,7 +356,7 @@ def _setRequestParams():
 
             else:
                 if place == PLACE.URI:
-                    value = conf.url = conf.url.replace('+', "%20")  # NOTE: https://github.com/sqlmapproject/sqlmap/issues/5123
+                    value = conf.url = conf.url.replace('+', "%20")  # NOTE: https://github.com/gurenduben/sqlmap/issues/5123
 
                 conf.parameters[place] = value
                 conf.paramDict[place] = OrderedDict()

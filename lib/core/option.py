@@ -1030,7 +1030,7 @@ def _setPreprocessFunctions():
                         function.__name__ = module.__name__
 
                         break
-                except ValueError:  # Note: https://github.com/sqlmapproject/sqlmap/issues/4357
+                except ValueError:  # Note: https://github.com/gurenduben/sqlmap/issues/4357
                     pass
 
             if not found:
@@ -1741,7 +1741,7 @@ def _createHomeDirectories():
         return
 
     for context in ("output", "history"):
-        directory = paths["SQLMAP_%s_PATH" % getUnicode(context).upper()]   # NOTE: https://github.com/sqlmapproject/sqlmap/issues/4363
+        directory = paths["SQLMAP_%s_PATH" % getUnicode(context).upper()]   # NOTE: https://github.com/gurenduben/sqlmap/issues/4363
         try:
             if not os.path.isdir(directory):
                 os.makedirs(directory)

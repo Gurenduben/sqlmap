@@ -650,7 +650,7 @@ def stdoutEncode(value):
         if isinstance(value, (bytes, bytearray)):
             value = getUnicode(value, encoding)
         elif not isinstance(value, str):
-            # Reference: https://github.com/sqlmapproject/sqlmap/issues/6054
+            # Reference: https://github.com/gurenduben/sqlmap/issues/6054
             return value
 
         try:

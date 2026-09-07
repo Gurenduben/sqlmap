@@ -50,7 +50,7 @@ class MultipartPostHandler(_urllib.request.BaseHandler):
 
             request.data = data
 
-        # normalize bare LF to CRLF inside a multipart body (Reference: https://github.com/sqlmapproject/sqlmap/issues/4235)
+        # normalize bare LF to CRLF inside a multipart body (Reference: https://github.com/gurenduben/sqlmap/issues/4235)
         if request.data:
             for match in re.finditer(b"(?i)\\s*-{20,}\\w+(\\s+Content-Disposition[^\\n]+\\s+|\\-\\-\\s*)", request.data):
                 part = match.group(0)

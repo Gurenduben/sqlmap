@@ -28,11 +28,11 @@ DESCRIPTION = "automatic SQL injection and database takeover tool"
 SITE = "https://sqlmap.org"
 DEFAULT_USER_AGENT = "%s (%s)" % (VERSION_STRING, SITE)
 DEV_EMAIL_ADDRESS = "dev@sqlmap.org"
-ISSUES_PAGE = "https://github.com/sqlmapproject/sqlmap/issues/new"
-GIT_REPOSITORY = "https://github.com/sqlmapproject/sqlmap.git"
-GIT_PAGE = "https://github.com/sqlmapproject/sqlmap"
-WIKI_PAGE = "https://github.com/sqlmapproject/sqlmap/wiki/"
-ZIPBALL_PAGE = "https://github.com/sqlmapproject/sqlmap/zipball/master"
+ISSUES_PAGE = "https://github.com/gurenduben/sqlmap/issues/new"
+GIT_REPOSITORY = "https://github.com/gurenduben/sqlmap.git"
+GIT_PAGE = "https://github.com/gurenduben/sqlmap"
+WIKI_PAGE = "https://github.com/gurenduben/sqlmap/wiki/"
+ZIPBALL_PAGE = "https://github.com/gurenduben/sqlmap/zipball/master"
 
 # colorful banner
 BANNER = """\033[01;33m\
@@ -925,7 +925,7 @@ FORCE_COOKIE_EXPIRATION_TIME = "9999999999"
 # Restricted PAT token for automated crash reporting (last rotation: 2026-04-24)
 # Scope is intentionally minimal (repo metadata read + issues write only, nothing else) -
 # extracting and reusing it to open issues is a known, accepted side effect of this design,
-# not a vulnerability (see https://github.com/sqlmapproject/sqlmap/issues/6098)
+# not a vulnerability (see https://github.com/gurenduben/sqlmap/issues/6098)
 GITHUB_REPORT_PAT_TOKEN = "0EZh0n8npcacTH4oBcdKKWvfZLcdGWx0N5XFHD2xYaQDOkmI9LWaeDvZRZUMDz8l96RDH3+LVsbwGE5zUtaau0kld9VXG20fVbYES3ooFpNv+U9J5OTnaT2OlZcYzk4w5veT+GiHV5cuCngOJ6QgL1+qRpZDX1gzFecXbm2sNfQ2SGjT5McQe1mtxMTN7WsS1fQfPH+RhMUgbnwXJ5YG6EsBNZWOyk0C16QnekrVtuQpK0/ZVvU560uQhoMsP1/FBguBwJe"
 
 # Age (in days) past which a resumed session file is considered stale (triggers a one-time nudge)

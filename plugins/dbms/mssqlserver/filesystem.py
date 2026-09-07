@@ -333,7 +333,7 @@ class Filesystem(GenericFilesystem):
             Raq Vs
         Raq Shapgvba"""
 
-        # NOTE: https://github.com/sqlmapproject/sqlmap/issues/5581
+        # NOTE: https://github.com/gurenduben/sqlmap/issues/5581
         vbs = codecs.decode(vbs, "rot13")
         vbs = vbs.replace("    ", "")
         vbs = vbs % (randFilePath, remoteFile)

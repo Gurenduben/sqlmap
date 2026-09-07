@@ -1,6 +1,6 @@
 # sqlmap
 
-[![.github/workflows/tests.yml](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml) [![Python 2.7|3.x](https://img.shields.io/badge/python-2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/sqlmapproject/sqlmap/master/LICENSE) [![x](https://img.shields.io/badge/x-@sqlmap-blue.svg)](https://x.com/sqlmap)
+[![.github/workflows/tests.yml](https://github.com/gurenduben/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/gurenduben/sqlmap/actions/workflows/tests.yml) [![Python 2.7|3.x](https://img.shields.io/badge/python-2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/gurenduben/sqlmap/master/LICENSE) [![x](https://img.shields.io/badge/x-@sqlmap-blue.svg)](https://x.com/sqlmap)
 
 sqlmap adalah perangkat lunak sumber terbuka yang digunakan untuk melakukan uji penetrasi, mengotomasi proses deteksi, eksploitasi kelemahan _SQL injection_ serta pengambil-alihan server basis data.
 
@@ -9,18 +9,18 @@ sqlmap dilengkapi dengan pendeteksi canggih dan fitur-fitur handal yang berguna 
 Tangkapan Layar
 ----
 
-![Tangkapan Layar](https://raw.github.com/wiki/sqlmapproject/sqlmap/images/sqlmap_screenshot.png)
+![Tangkapan Layar](https://raw.github.com/wiki/gurenduben/sqlmap/images/sqlmap_screenshot.png)
 
-Anda juga dapat mengunjungi [koleksi tangkapan layar](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) yang mendemonstrasikan beberapa fitur dalam wiki.
+Anda juga dapat mengunjungi [koleksi tangkapan layar](https://github.com/gurenduben/sqlmap/wiki/Screenshots) yang mendemonstrasikan beberapa fitur dalam wiki.
 
 Instalasi
 ----
 
-Anda dapat mengunduh tarball versi terbaru [di sini](https://github.com/sqlmapproject/sqlmap/tarball/master) atau zipball [di sini](https://github.com/sqlmapproject/sqlmap/zipball/master).
+Anda dapat mengunduh tarball versi terbaru [di sini](https://github.com/gurenduben/sqlmap/tarball/master) atau zipball [di sini](https://github.com/gurenduben/sqlmap/zipball/master).
 
-Sebagai alternatif, Anda dapat mengunduh sqlmap dengan melakukan _clone_ pada repositori [Git](https://github.com/sqlmapproject/sqlmap):
+Sebagai alternatif, Anda dapat mengunduh sqlmap dengan melakukan _clone_ pada repositori [Git](https://github.com/gurenduben/sqlmap):
 
-    git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+    git clone --depth 1 https://github.com/gurenduben/sqlmap.git sqlmap-dev
 
 sqlmap berfungsi langsung pada [Python](https://www.python.org/download/) versi **2.7** dan **3.x** pada platform apapun.
 
@@ -37,19 +37,19 @@ Untuk mendapatkan daftar opsi lanjutan gunakan perintah:
 
 Anda dapat mendapatkan contoh penggunaan [di sini](https://asciinema.org/a/46601).
 
-Untuk mendapatkan gambaran singkat kemampuan sqlmap, daftar fitur yang didukung, deskripsi dari semua opsi, berikut dengan contohnya. Anda disarankan untuk membaca [Panduan Pengguna](https://github.com/sqlmapproject/sqlmap/wiki/Usage).
+Untuk mendapatkan gambaran singkat kemampuan sqlmap, daftar fitur yang didukung, deskripsi dari semua opsi, berikut dengan contohnya. Anda disarankan untuk membaca [Panduan Pengguna](https://github.com/gurenduben/sqlmap/wiki/Usage).
 
 Tautan
 ----
 
 * Situs: https://sqlmap.org
-* Unduh: [.tar.gz](https://github.com/sqlmapproject/sqlmap/tarball/master) atau [.zip](https://github.com/sqlmapproject/sqlmap/zipball/master)
-* RSS Feed Dari Commits: https://github.com/sqlmapproject/sqlmap/commits/master.atom
-* Pelacak Masalah: https://github.com/sqlmapproject/sqlmap/issues
-* Wiki Manual Penggunaan: https://github.com/sqlmapproject/sqlmap/wiki
-* Pertanyaan Yang Sering Ditanyakan (FAQ): https://github.com/sqlmapproject/sqlmap/wiki/FAQ
+* Unduh: [.tar.gz](https://github.com/gurenduben/sqlmap/tarball/master) atau [.zip](https://github.com/gurenduben/sqlmap/zipball/master)
+* RSS Feed Dari Commits: https://github.com/gurenduben/sqlmap/commits/master.atom
+* Pelacak Masalah: https://github.com/gurenduben/sqlmap/issues
+* Wiki Manual Penggunaan: https://github.com/gurenduben/sqlmap/wiki
+* Pertanyaan Yang Sering Ditanyakan (FAQ): https://github.com/gurenduben/sqlmap/wiki/FAQ
 * X: [@sqlmap](https://x.com/sqlmap)
 * Video Demo [#1](https://www.youtube.com/user/inquisb/videos) dan [#2](https://www.youtube.com/user/stamparm/videos)
 * Arena latihan: https://sekumart.sekuripy.hr
 * Riset: https://www.sekuripy.hr/labs/sqlmap/#research
-* Tangkapan Layar: https://github.com/sqlmapproject/sqlmap/wiki/Screenshots
+* Tangkapan Layar: https://github.com/gurenduben/sqlmap/wiki/Screenshots

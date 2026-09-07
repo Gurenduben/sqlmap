@@ -105,7 +105,7 @@ class Web(object):
         if content is not None:
             stream = io.BytesIO(getBytes(content))  # string content
 
-            # Reference: https://github.com/sqlmapproject/sqlmap/issues/3560
+            # Reference: https://github.com/gurenduben/sqlmap/issues/3560
             # Reference: https://stackoverflow.com/a/4677542
             stream.seek(0, os.SEEK_END)
             stream.len = stream.tell()

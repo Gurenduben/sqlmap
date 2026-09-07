@@ -190,7 +190,7 @@ class Agent(object):
                 newValue = newValue.replace(BOUNDARY_BACKSLASH_MARKER, '\\')
                 newValue = self.adjustLateValues(newValue)
 
-            # NOTE: https://github.com/sqlmapproject/sqlmap/issues/5488
+            # NOTE: https://github.com/gurenduben/sqlmap/issues/5488
             if kb.customInjectionMark in origValue:
                 payload = newValue.replace(origValue, "")
                 newValue = origValue.replace(kb.customInjectionMark, payload)
@@ -285,7 +285,7 @@ class Agent(object):
 
         # If we are replacing (<where>) the parameter original value with
         # our payload do not prepend with the prefix
-        if where == PAYLOAD.WHERE.REPLACE and not conf.prefix:  # Note: https://github.com/sqlmapproject/sqlmap/issues/4030
+        if where == PAYLOAD.WHERE.REPLACE and not conf.prefix:  # Note: https://github.com/gurenduben/sqlmap/issues/4030
             query = ""
 
         # If the technique is stacked queries (<stype>) do not put a space
@@ -437,7 +437,7 @@ class Agent(object):
                     payload = re.sub(r"(?i)\bSYS.USER\$", "DBA_USERS", payload)
                     payload = re.sub(r"(?i)\bNAME\b", "USERNAME", payload)
 
-            # NOTE: https://github.com/sqlmapproject/sqlmap/issues/5057
+            # NOTE: https://github.com/gurenduben/sqlmap/issues/5057
             match = re.search(r"(=0x)(303a303a)3(\d{2,})", payload)
             if match:
                 payload = payload.replace(match.group(0), "%s%s%s" % (match.group(1), match.group(2).upper(), "".join("3%s" % _ for _ in match.group(3))))

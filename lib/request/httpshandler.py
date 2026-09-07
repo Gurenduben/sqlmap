@@ -41,7 +41,7 @@ class HTTPSConnection(_http_client.HTTPSConnection):
     """
 
     def __init__(self, *args, **kwargs):
-        # NOTE: Dirty patch for https://bugs.python.org/issue38251 / https://github.com/sqlmapproject/sqlmap/issues/4158
+        # NOTE: Dirty patch for https://bugs.python.org/issue38251 / https://github.com/gurenduben/sqlmap/issues/4158
         if hasattr(ssl, "_create_default_https_context"):
             if None not in _contexts:
                 _contexts[None] = ssl._create_default_https_context()

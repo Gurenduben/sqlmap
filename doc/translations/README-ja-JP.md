@@ -1,6 +1,6 @@
 # sqlmap
 
-[![.github/workflows/tests.yml](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml) [![Python 2.7|3.x](https://img.shields.io/badge/python-2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/sqlmapproject/sqlmap/master/LICENSE) [![x](https://img.shields.io/badge/x-@sqlmap-blue.svg)](https://x.com/sqlmap)
+[![.github/workflows/tests.yml](https://github.com/gurenduben/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/gurenduben/sqlmap/actions/workflows/tests.yml) [![Python 2.7|3.x](https://img.shields.io/badge/python-2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/gurenduben/sqlmap/master/LICENSE) [![x](https://img.shields.io/badge/x-@sqlmap-blue.svg)](https://x.com/sqlmap)
 
 sqlmapはオープンソースのペネトレーションテスティングツールです。SQLインジェクションの脆弱性の検出、活用、そしてデータベースサーバ奪取のプロセスを自動化します。
 強力な検出エンジン、ペネトレーションテスターのための多くのニッチ機能、持続的なデータベースのフィンガープリンティングから、データベースのデータ取得やアウトオブバンド接続を介したオペレーティング・システム上でのコマンド実行、ファイルシステムへのアクセスなどの広範囲に及ぶスイッチを提供します。
@@ -8,18 +8,18 @@ sqlmapはオープンソースのペネトレーションテスティングツ�
 スクリーンショット
 ----
 
-![Screenshot](https://raw.github.com/wiki/sqlmapproject/sqlmap/images/sqlmap_screenshot.png)
+![Screenshot](https://raw.github.com/wiki/gurenduben/sqlmap/images/sqlmap_screenshot.png)
 
-wikiに載っているいくつかの機能のデモをスクリーンショットで見ることができます。 [スクリーンショット集](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots)
+wikiに載っているいくつかの機能のデモをスクリーンショットで見ることができます。 [スクリーンショット集](https://github.com/gurenduben/sqlmap/wiki/Screenshots)
 
 インストール
 ----
 
-最新のtarballを [こちら](https://github.com/sqlmapproject/sqlmap/tarball/master) から、最新のzipballを [こちら](https://github.com/sqlmapproject/sqlmap/zipball/master) からダウンロードできます。
+最新のtarballを [こちら](https://github.com/gurenduben/sqlmap/tarball/master) から、最新のzipballを [こちら](https://github.com/gurenduben/sqlmap/zipball/master) からダウンロードできます。
 
-[Git](https://github.com/sqlmapproject/sqlmap) レポジトリをクローンして、sqlmapをダウンロードすることも可能です。:
+[Git](https://github.com/gurenduben/sqlmap) レポジトリをクローンして、sqlmapをダウンロードすることも可能です。:
 
-    git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+    git clone --depth 1 https://github.com/gurenduben/sqlmap.git sqlmap-dev
 
 sqlmapは、 [Python](https://www.python.org/download/) バージョン **2.7** または **3.x** がインストールされていれば、全てのプラットフォームですぐに使用できます。
 
@@ -35,19 +35,19 @@ sqlmapは、 [Python](https://www.python.org/download/) バージョン **2.7** 
     python sqlmap.py -hh
 
 実行例を [こちら](https://asciinema.org/a/46601) で見ることができます。
-sqlmapの概要、機能の一覧、全てのオプションやスイッチの使用方法を例とともに、 [ユーザーマニュアル](https://github.com/sqlmapproject/sqlmap/wiki/Usage) で確認することができます。
+sqlmapの概要、機能の一覧、全てのオプションやスイッチの使用方法を例とともに、 [ユーザーマニュアル](https://github.com/gurenduben/sqlmap/wiki/Usage) で確認することができます。
 
 リンク
 ----
 
 * ホームページ: https://sqlmap.org
-* ダウンロード: [.tar.gz](https://github.com/sqlmapproject/sqlmap/tarball/master) or [.zip](https://github.com/sqlmapproject/sqlmap/zipball/master)
-* コミットのRSSフィード: https://github.com/sqlmapproject/sqlmap/commits/master.atom
-* 課題管理: https://github.com/sqlmapproject/sqlmap/issues
-* ユーザーマニュアル: https://github.com/sqlmapproject/sqlmap/wiki
-* よくある質問 (FAQ): https://github.com/sqlmapproject/sqlmap/wiki/FAQ
+* ダウンロード: [.tar.gz](https://github.com/gurenduben/sqlmap/tarball/master) or [.zip](https://github.com/gurenduben/sqlmap/zipball/master)
+* コミットのRSSフィード: https://github.com/gurenduben/sqlmap/commits/master.atom
+* 課題管理: https://github.com/gurenduben/sqlmap/issues
+* ユーザーマニュアル: https://github.com/gurenduben/sqlmap/wiki
+* よくある質問 (FAQ): https://github.com/gurenduben/sqlmap/wiki/FAQ
 * X: [@sqlmap](https://x.com/sqlmap)
 * デモ: [https://www.youtube.com/user/inquisb/videos](https://www.youtube.com/user/inquisb/videos)
 * プレイグラウンド: https://sekumart.sekuripy.hr
 * 研究: https://www.sekuripy.hr/labs/sqlmap/#research
-* スクリーンショット: https://github.com/sqlmapproject/sqlmap/wiki/Screenshots
+* スクリーンショット: https://github.com/gurenduben/sqlmap/wiki/Screenshots
