@@ -198,7 +198,7 @@
 /var/log/mysqld.log
 /var/www/index.php
 
-# Reference: https://github.com/sqlmapproject/sqlmap/blob/master/lib/core/settings.py#L809-L810
+# Reference: https://github.com/gurenduben/sqlmap/blob/master/lib/core/settings.py#L809-L810
 
 /var/www/index.php
 /usr/local/apache/index.php
@@ -218,7 +218,7 @@
 /var/www/nginx-default/config.php
 /srv/www/config.php
 
-# Reference: https://github.com/sqlmapproject/sqlmap/issues/3928
+# Reference: https://github.com/gurenduben/sqlmap/issues/3928
 
 /srv/www/htdocs/index.php
 /usr/local/apache2/htdocs/index.php

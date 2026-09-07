@@ -1,6 +1,6 @@
 # Version 2.0 (WIP)
 
-* [View changes](https://github.com/sqlmapproject/sqlmap/compare/1.10...master)
+* [View changes](https://github.com/gurenduben/sqlmap/compare/1.10...master)
 
 ## Injection techniques
 
@@ -112,53 +112,53 @@
 
 # Version 1.10 (2026-01-01)
 
-* [View changes](https://github.com/sqlmapproject/sqlmap/compare/1.9...1.10)
-* [View issues](https://github.com/sqlmapproject/sqlmap/milestone/11?closed=1)
+* [View changes](https://github.com/gurenduben/sqlmap/compare/1.9...1.10)
+* [View issues](https://github.com/gurenduben/sqlmap/milestone/11?closed=1)
 
 # Version 1.9 (2025-01-02)
 
-* [View changes](https://github.com/sqlmapproject/sqlmap/compare/1.8...1.9)
-* [View issues](https://github.com/sqlmapproject/sqlmap/milestone/10?closed=1)
+* [View changes](https://github.com/gurenduben/sqlmap/compare/1.8...1.9)
+* [View issues](https://github.com/gurenduben/sqlmap/milestone/10?closed=1)
 
 # Version 1.8 (2024-01-03)
 
-* [View changes](https://github.com/sqlmapproject/sqlmap/compare/1.7...1.8)
-* [View issues](https://github.com/sqlmapproject/sqlmap/milestone/9?closed=1)
+* [View changes](https://github.com/gurenduben/sqlmap/compare/1.7...1.8)
+* [View issues](https://github.com/gurenduben/sqlmap/milestone/9?closed=1)
 
 # Version 1.7 (2023-01-02)
 
-* [View changes](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7)
-* [View issues](https://github.com/sqlmapproject/sqlmap/milestone/8?closed=1)
+* [View changes](https://github.com/gurenduben/sqlmap/compare/1.6...1.7)
+* [View issues](https://github.com/gurenduben/sqlmap/milestone/8?closed=1)
 
 # Version 1.6 (2022-01-03)
 
-* [View changes](https://github.com/sqlmapproject/sqlmap/compare/1.5...1.6)
-* [View issues](https://github.com/sqlmapproject/sqlmap/milestone/7?closed=1)
+* [View changes](https://github.com/gurenduben/sqlmap/compare/1.5...1.6)
+* [View issues](https://github.com/gurenduben/sqlmap/milestone/7?closed=1)
 
 # Version 1.5 (2021-01-03)
 
-* [View changes](https://github.com/sqlmapproject/sqlmap/compare/1.4...1.5)
-* [View issues](https://github.com/sqlmapproject/sqlmap/milestone/6?closed=1)
+* [View changes](https://github.com/gurenduben/sqlmap/compare/1.4...1.5)
+* [View issues](https://github.com/gurenduben/sqlmap/milestone/6?closed=1)
 
 # Version 1.4 (2020-01-01)
 
-* [View changes](https://github.com/sqlmapproject/sqlmap/compare/1.3...1.4)
-* [View issues](https://github.com/sqlmapproject/sqlmap/milestone/5?closed=1)
+* [View changes](https://github.com/gurenduben/sqlmap/compare/1.3...1.4)
+* [View issues](https://github.com/gurenduben/sqlmap/milestone/5?closed=1)
 
 # Version 1.3 (2019-01-05)
 
-* [View changes](https://github.com/sqlmapproject/sqlmap/compare/1.2...1.3)
-* [View issues](https://github.com/sqlmapproject/sqlmap/milestone/4?closed=1)
+* [View changes](https://github.com/gurenduben/sqlmap/compare/1.2...1.3)
+* [View issues](https://github.com/gurenduben/sqlmap/milestone/4?closed=1)
 
 # Version 1.2 (2018-01-08)
 
-* [View changes](https://github.com/sqlmapproject/sqlmap/compare/1.1...1.2)
-* [View issues](https://github.com/sqlmapproject/sqlmap/milestone/3?closed=1)
+* [View changes](https://github.com/gurenduben/sqlmap/compare/1.1...1.2)
+* [View issues](https://github.com/gurenduben/sqlmap/milestone/3?closed=1)
 
 # Version 1.1 (2017-04-07)
 
-* [View changes](https://github.com/sqlmapproject/sqlmap/compare/1.0...1.1)
-* [View issues](https://github.com/sqlmapproject/sqlmap/milestone/2?closed=1)
+* [View changes](https://github.com/gurenduben/sqlmap/compare/1.0...1.1)
+* [View issues](https://github.com/gurenduben/sqlmap/milestone/2?closed=1)
 
 # Version 1.0 (2016-02-27)
 

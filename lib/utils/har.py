@@ -168,7 +168,7 @@ class Response(object):
         response = _http_client.HTTPResponse(FakeSocket(altered))
         response.begin()
 
-        # NOTE: https://github.com/sqlmapproject/sqlmap/issues/5942
+        # NOTE: https://github.com/gurenduben/sqlmap/issues/5942
         response.length = len(raw[raw.find(b"\r\n\r\n") + 4:])
 
         try:

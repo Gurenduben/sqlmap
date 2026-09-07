@@ -18,13 +18,13 @@ info:
         logs/data in the configured IPC database.
   license:
     name: GPL-2.0-only or commercial
-    url: https://github.com/sqlmapproject/sqlmap/blob/master/LICENSE
+    url: https://github.com/gurenduben/sqlmap/blob/master/LICENSE
   contact:
     name: sqlmap project
     url: https://sqlmap.org
 externalDocs:
   description: sqlmap project repository
-  url: https://github.com/sqlmapproject/sqlmap
+  url: https://github.com/gurenduben/sqlmap
 servers:
   - url: http://127.0.0.1:8775
     description: Default local sqlmapapi.py server

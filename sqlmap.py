@@ -15,7 +15,7 @@ try:
     try:
         __import__("lib.utils.versioncheck")  # this has to be the first non-standard import
     except ImportError:
-        sys.exit("[!] wrong installation detected (missing modules). Visit 'https://github.com/sqlmapproject/sqlmap/#installation' for further details")
+        sys.exit("[!] wrong installation detected (missing modules). Visit 'https://github.com/gurenduben/sqlmap/#installation' for further details")
 
     import bdb
     import glob
@@ -454,7 +454,7 @@ def main():
 
         elif "'WebSocket' object has no attribute 'status'" in excMsg:
             errMsg = "wrong websocket library detected"
-            errMsg += " (Reference: 'https://github.com/sqlmapproject/sqlmap/issues/4572#issuecomment-775041086')"
+            errMsg += " (Reference: 'https://github.com/gurenduben/sqlmap/issues/4572#issuecomment-775041086')"
             logger.critical(errMsg)
             raise SystemExit
 

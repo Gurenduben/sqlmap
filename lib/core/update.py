@@ -64,7 +64,7 @@ def update():
             logger.error("update could not be completed ('%s')" % re.sub(r"[^a-z0-9:/\\]+", " ", output).strip())
 
     elif not os.path.exists(os.path.join(paths.SQLMAP_ROOT_PATH, ".git")):
-        warnMsg = "not a git repository. It is recommended to clone the 'sqlmapproject/sqlmap' repository "
+        warnMsg = "not a git repository. It is recommended to clone the 'gurenduben/sqlmap' repository "
         warnMsg += "from GitHub (e.g. 'git clone --depth 1 %s sqlmap')" % GIT_REPOSITORY
         logger.warning(warnMsg)
 
@@ -148,7 +148,7 @@ def update():
             logger.info("%s the latest revision '%s'" % ("already at" if "Already" in output else "updated to", getRevisionNumber()))
         else:
             if "Not a git repository" in output:
-                errMsg = "not a valid git repository. Please checkout the 'sqlmapproject/sqlmap' repository "
+                errMsg = "not a valid git repository. Please checkout the 'gurenduben/sqlmap' repository "
                 errMsg += "from GitHub (e.g. 'git clone --depth 1 %s sqlmap')" % GIT_REPOSITORY
                 logger.error(errMsg)
             else:
@@ -160,7 +160,7 @@ def update():
             infoMsg += "to use a GitHub for Windows client for updating "
             infoMsg += "purposes (https://desktop.github.com/) or just "
             infoMsg += "download the latest snapshot from "
-            infoMsg += "https://github.com/sqlmapproject/sqlmap/releases"
+            infoMsg += "https://github.com/gurenduben/sqlmap/releases"
         else:
             infoMsg = "for Linux platform it's recommended "
             infoMsg += "to install a standard 'git' package (e.g.: 'apt install git')"

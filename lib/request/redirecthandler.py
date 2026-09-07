@@ -180,7 +180,7 @@ class SmartRedirectHandler(_urllib.request.HTTPRedirectHandler):
             except _urllib.error.HTTPError as ex:
                 result = error = ex
 
-                # Dirty hack for https://github.com/sqlmapproject/sqlmap/issues/4046
+                # Dirty hack for https://github.com/gurenduben/sqlmap/issues/4046
                 try:
                     hasattr(result, "read")
                 except KeyError:

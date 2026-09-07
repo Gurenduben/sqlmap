@@ -163,7 +163,7 @@ class Connect(object):
     @staticmethod
     def _getPageProxy(**kwargs):
         try:
-            if (len(inspect.stack()) > sys.getrecursionlimit() // 2):   # Note: https://github.com/sqlmapproject/sqlmap/issues/4525
+            if (len(inspect.stack()) > sys.getrecursionlimit() // 2):   # Note: https://github.com/gurenduben/sqlmap/issues/4525
                 warnMsg = "unable to connect to the target URL"
                 raise SqlmapConnectionException(warnMsg)
         except (TypeError, UnicodeError):
@@ -654,7 +654,7 @@ class Connect(object):
 
                 post = getBytes(post)
 
-                # Reference: https://github.com/sqlmapproject/sqlmap/issues/6049
+                # Reference: https://github.com/gurenduben/sqlmap/issues/6049
                 if cmdLineOptions.method is None and method == HTTPMETHOD.GET and post == b"":
                     post = None
 
@@ -1099,7 +1099,7 @@ class Connect(object):
 
             socket.setdefaulttimeout(conf.timeout)
 
-        # Dirty patch for Python3.11.0a7 (e.g. https://github.com/sqlmapproject/sqlmap/issues/5091)
+        # Dirty patch for Python3.11.0a7 (e.g. https://github.com/gurenduben/sqlmap/issues/5091)
         if not sys.version.startswith("3.11."):
             if conf.retryOn and re.search(conf.retryOn, page or "", re.I):
                 if threadData.retriesCount < conf.retries:
@@ -1207,7 +1207,7 @@ class Connect(object):
 
             if (kb.postHint or conf.skipUrlEncode) and postUrlEncode:
                 postUrlEncode = False
-                if not (conf.skipUrlEncode and contentType):    # NOTE: https://github.com/sqlmapproject/sqlmap/issues/5092
+                if not (conf.skipUrlEncode and contentType):    # NOTE: https://github.com/gurenduben/sqlmap/issues/5092
                     conf.httpHeaders = [_ for _ in conf.httpHeaders if _[1] != contentType]
                     contentType = POST_HINT_CONTENT_TYPES.get(kb.postHint, PLAIN_TEXT_CONTENT_TYPE)
                     conf.httpHeaders.append((HTTP_HEADER.CONTENT_TYPE, contentType))

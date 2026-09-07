@@ -91,7 +91,7 @@ def dirtyPatches():
     if match and match.group(1).upper() != PLACE.POST:
         PLACE.CUSTOM_POST = PLACE.CUSTOM_POST.replace("POST", "%s (body)" % match.group(1))
 
-    # Reference: https://github.com/sqlmapproject/sqlmap/issues/4314
+    # Reference: https://github.com/gurenduben/sqlmap/issues/4314
     try:
         os.urandom(1)
     except NotImplementedError:
@@ -100,7 +100,7 @@ def dirtyPatches():
         else:
             os.urandom = lambda size: "".join(chr(random.randint(0, 255)) for _ in xrange(size))
 
-    # Reference: https://github.com/sqlmapproject/sqlmap/issues/5929
+    # Reference: https://github.com/gurenduben/sqlmap/issues/5929
     try:
         import collections
         if not hasattr(collections, "MutableSet"):
@@ -109,7 +109,7 @@ def dirtyPatches():
     except ImportError:
         pass
 
-    # Reference: https://github.com/sqlmapproject/sqlmap/issues/5727
+    # Reference: https://github.com/gurenduben/sqlmap/issues/5727
     # Reference: https://stackoverflow.com/a/14076841
     try:
         import pymysql
@@ -146,7 +146,7 @@ def dirtyPatches():
 
     codecs.register_error("reversible", _reversible)
 
-    # Reference: https://github.com/sqlmapproject/sqlmap/issues/5731
+    # Reference: https://github.com/gurenduben/sqlmap/issues/5731
     if not hasattr(logging, "_acquireLock"):
         def _acquireLock():
             if logging._lock:

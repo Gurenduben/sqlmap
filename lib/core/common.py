@@ -723,7 +723,7 @@ def paramToDict(place, parameters=None):
                                                 if value:
                                                     walk(head, value)
 
-                                # NOTE: for cases with custom injection marker(s) inside (e.g. https://github.com/sqlmapproject/sqlmap/issues/4137#issuecomment-2013783111) - p.s. doesn't care too much about the structure (e.g. injection into the flat array values)
+                                # NOTE: for cases with custom injection marker(s) inside (e.g. https://github.com/gurenduben/sqlmap/issues/4137#issuecomment-2013783111) - p.s. doesn't care too much about the structure (e.g. injection into the flat array values)
                                 if CUSTOM_INJECTION_MARK_CHAR in testableParameters[parameter]:
                                     for match in re.finditer(r'(\w+)[^\w]*"\s*:[^\w]*\w*%s' % re.escape(CUSTOM_INJECTION_MARK_CHAR), testableParameters[parameter]):
                                         key = match.group(1)
@@ -4041,7 +4041,7 @@ def decodeIntToUnicode(value):
 
                 if Backend.isDbms(DBMS.MYSQL):
                     # Reference: https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_ord
-                    # Note: https://github.com/sqlmapproject/sqlmap/issues/1531
+                    # Note: https://github.com/gurenduben/sqlmap/issues/1531
                     retVal = getUnicode(raw, conf.encoding or UNICODE_ENCODING)
                 elif Backend.isDbms(DBMS.MSSQL):
                     # Reference: https://docs.microsoft.com/en-us/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2017 and https://stackoverflow.com/a/14488478
@@ -4110,7 +4110,7 @@ def getLatestRevision():
     """
 
     retVal = None
-    req = _urllib.request.Request(url="https://raw.githubusercontent.com/sqlmapproject/sqlmap/master/lib/core/settings.py", headers={HTTP_HEADER.USER_AGENT: fetchRandomAgent()})
+    req = _urllib.request.Request(url="https://raw.githubusercontent.com/gurenduben/sqlmap/master/lib/core/settings.py", headers={HTTP_HEADER.USER_AGENT: fetchRandomAgent()})
 
     try:
         content = getUnicode(_urllib.request.urlopen(req).read())
@@ -4178,7 +4178,7 @@ def createGithubIssue(errMsg, excMsg):
         _excMsg = None
         errMsg = errMsg[errMsg.find("\n"):]
 
-        req = _urllib.request.Request(url="https://api.github.com/search/issues?q=%s" % _urllib.parse.quote("repo:sqlmapproject/sqlmap Unhandled exception (#%s)" % key), headers={HTTP_HEADER.USER_AGENT: fetchRandomAgent()})
+        req = _urllib.request.Request(url="https://api.github.com/search/issues?q=%s" % _urllib.parse.quote("repo:gurenduben/sqlmap Unhandled exception (#%s)" % key), headers={HTTP_HEADER.USER_AGENT: fetchRandomAgent()})
 
         try:
             content = _urllib.request.urlopen(req).read()
@@ -4197,7 +4197,7 @@ def createGithubIssue(errMsg, excMsg):
 
         data = {"title": "Unhandled exception (#%s)" % key, "body": "```%s\n```\n```\n%s```" % (errMsg, excMsg)}
         token = getText(zlib.decompress(decodeBase64(GITHUB_REPORT_PAT_TOKEN[::-1], binary=True))[0::2][::-1])
-        req = _urllib.request.Request(url="https://api.github.com/repos/sqlmapproject/sqlmap/issues", data=getBytes(json.dumps(data)), headers={HTTP_HEADER.AUTHORIZATION: "token %s" % token, HTTP_HEADER.USER_AGENT: fetchRandomAgent()})
+        req = _urllib.request.Request(url="https://api.github.com/repos/gurenduben/sqlmap/issues", data=getBytes(json.dumps(data)), headers={HTTP_HEADER.AUTHORIZATION: "token %s" % token, HTTP_HEADER.USER_AGENT: fetchRandomAgent()})
 
         try:
             content = getText(_urllib.request.urlopen(req).read())
@@ -4205,7 +4205,7 @@ def createGithubIssue(errMsg, excMsg):
             content = None
             _excMsg = getSafeExString(ex)
 
-        issueUrl = re.search(r"https://github.com/sqlmapproject/sqlmap/issues/\d+", content or "")
+        issueUrl = re.search(r"https://github.com/gurenduben/sqlmap/issues/\d+", content or "")
         if issueUrl:
             infoMsg = "created Github issue can been found at the address '%s'" % issueUrl.group(0)
             logger.info(infoMsg)
@@ -4522,7 +4522,7 @@ def safeSQLIdentificatorNaming(name, isTable=False):
                             retVal = "[%s]" % retVal
 
         if _ and DEFAULT_MSSQL_SCHEMA not in retVal and '.' not in re.sub(r"\[[^]]+\]", "", retVal):
-            if (conf.db or "").lower() != "information_schema":     # NOTE: https://github.com/sqlmapproject/sqlmap/issues/5192
+            if (conf.db or "").lower() != "information_schema":     # NOTE: https://github.com/gurenduben/sqlmap/issues/5192
                 retVal = "%s.%s" % (DEFAULT_MSSQL_SCHEMA, retVal)
 
     return retVal

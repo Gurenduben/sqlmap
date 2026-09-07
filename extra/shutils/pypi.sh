@@ -35,11 +35,11 @@ setup(
     author_email='bernardo@sqlmap.org, miroslav@sqlmap.org',
     url='https://sqlmap.org',
     project_urls={
-        'Documentation': 'https://github.com/sqlmapproject/sqlmap/wiki',
-        'Source': 'https://github.com/sqlmapproject/sqlmap/',
-        'Tracker': 'https://github.com/sqlmapproject/sqlmap/issues',
+        'Documentation': 'https://github.com/gurenduben/sqlmap/wiki',
+        'Source': 'https://github.com/gurenduben/sqlmap/',
+        'Tracker': 'https://github.com/gurenduben/sqlmap/issues',
     },
-    download_url='https://github.com/sqlmapproject/sqlmap/archive/$VERSION.zip',
+    download_url='https://github.com/gurenduben/sqlmap/archive/$VERSION.zip',
     license='GNU General Public License v2 (GPLv2)',
     packages=['sqlmap'],
     package_dir={'sqlmap':'sqlmap'},
@@ -67,7 +67,7 @@ cat > "$TMP_DIR/setup.cfg" << "EOF"
 [bdist_wheel]
 universal = 1
 EOF
-wget "https://github.com/sqlmapproject/sqlmap/archive/$VERSION.zip" -O sqlmap.zip
+wget "https://github.com/gurenduben/sqlmap/archive/$VERSION.zip" -O sqlmap.zip
 unzip sqlmap.zip
 rm sqlmap.zip
 mv "sqlmap-$VERSION" sqlmap
@@ -102,12 +102,12 @@ commands on the operating system via out-of-band connections.
 Screenshots
 -----------
 
-.. figure:: https://raw.github.com/wiki/sqlmapproject/sqlmap/images/sqlmap_screenshot.png
+.. figure:: https://raw.github.com/wiki/gurenduben/sqlmap/images/sqlmap_screenshot.png
    :alt: Screenshot
 
 
 You can visit the `collection of
-screenshots <https://github.com/sqlmapproject/sqlmap/wiki/Screenshots>`__
+screenshots <https://github.com/gurenduben/sqlmap/wiki/Screenshots>`__
 demonstrating some of features on the wiki.
 
 Installation
@@ -118,16 +118,16 @@ You can use pip to install and/or upgrade the sqlmap to latest (monthly) tagged 
     pip install --upgrade sqlmap
 
 Alternatively, you can download the latest tarball by clicking
-`here <https://github.com/sqlmapproject/sqlmap/tarball/master>`__ or
+`here <https://github.com/gurenduben/sqlmap/tarball/master>`__ or
 latest zipball by clicking
-`here <https://github.com/sqlmapproject/sqlmap/zipball/master>`__.
+`here <https://github.com/gurenduben/sqlmap/zipball/master>`__.
 
 If you prefer fetching daily updates, you can download sqlmap by cloning the
-`Git <https://github.com/sqlmapproject/sqlmap>`__ repository:
+`Git <https://github.com/gurenduben/sqlmap>`__ repository:
 
 ::
 
-    git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+    git clone --depth 1 https://github.com/gurenduben/sqlmap.git sqlmap-dev
 
 sqlmap works out of the box with
 `Python <http://www.python.org/download/>`__ version **2.7** and
@@ -152,29 +152,29 @@ You can find a sample run `here <https://asciinema.org/a/46601>`__. To
 get an overview of sqlmap capabilities, list of supported features and
 description of all options and switches, along with examples, you are
 advised to consult the `user's
-manual <https://github.com/sqlmapproject/sqlmap/wiki/Usage>`__.
+manual <https://github.com/gurenduben/sqlmap/wiki/Usage>`__.
 
 Links
 -----
 
 -  Homepage: https://sqlmap.org
 -  Download:
-   `.tar.gz <https://github.com/sqlmapproject/sqlmap/tarball/master>`__
-   or `.zip <https://github.com/sqlmapproject/sqlmap/zipball/master>`__
+   `.tar.gz <https://github.com/gurenduben/sqlmap/tarball/master>`__
+   or `.zip <https://github.com/gurenduben/sqlmap/zipball/master>`__
 -  Commits RSS feed:
-   https://github.com/sqlmapproject/sqlmap/commits/master.atom
--  Issue tracker: https://github.com/sqlmapproject/sqlmap/issues
--  User's manual: https://github.com/sqlmapproject/sqlmap/wiki
+   https://github.com/gurenduben/sqlmap/commits/master.atom
+-  Issue tracker: https://github.com/gurenduben/sqlmap/issues
+-  User's manual: https://github.com/gurenduben/sqlmap/wiki
 -  Frequently Asked Questions (FAQ):
-   https://github.com/sqlmapproject/sqlmap/wiki/FAQ
+   https://github.com/gurenduben/sqlmap/wiki/FAQ
 -  X: https://x.com/sqlmap
 -  Demos: http://www.youtube.com/user/inquisb/videos
--  Screenshots: https://github.com/sqlmapproject/sqlmap/wiki/Screenshots
+-  Screenshots: https://github.com/gurenduben/sqlmap/wiki/Screenshots
 
 .. |Python 2.7|3.x| image:: https://img.shields.io/badge/python-2.7|3.x-yellow.svg
    :target: https://www.python.org/
 .. |License| image:: https://img.shields.io/badge/license-GPLv2-red.svg
-   :target: https://raw.githubusercontent.com/sqlmapproject/sqlmap/master/LICENSE
+   :target: https://raw.githubusercontent.com/gurenduben/sqlmap/master/LICENSE
 .. |X| image:: https://img.shields.io/badge/x-@sqlmap-blue.svg
    :target: https://x.com/sqlmap
 

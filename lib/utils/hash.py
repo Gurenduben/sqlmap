@@ -9,7 +9,7 @@ from __future__ import print_function
 
 try:
     from crypt import crypt
-except:  # removed ImportError because of https://github.com/sqlmapproject/sqlmap/issues/3171
+except:  # removed ImportError because of https://github.com/gurenduben/sqlmap/issues/3171
     from thirdparty.fcrypt.fcrypt import crypt
 
 try:
@@ -849,7 +849,7 @@ def _finalize(retVal, results, processes, attack_info=None):
     if _multiprocessing:
         gc.enable()
 
-    # NOTE: https://github.com/sqlmapproject/sqlmap/issues/4367
+    # NOTE: https://github.com/gurenduben/sqlmap/issues/4367
     # NOTE: https://dzone.com/articles/python-101-creating-multiple-processes
     for process in processes:
         try:
@@ -1353,14 +1353,14 @@ def dictionaryAttack(attack_dict):
     if conf.disableMulti:
         _multiprocessing = None
     else:
-        # Note: https://github.com/sqlmapproject/sqlmap/issues/4367
+        # Note: https://github.com/gurenduben/sqlmap/issues/4367
         try:
             import multiprocessing
 
             # problems on FreeBSD (Reference: https://web.archive.org/web/20110710041353/http://www.eggheadcafe.com/microsoft/Python/35880259/multiprocessing-on-freebsd.aspx)
             _ = multiprocessing.Queue()
 
-            # problems with ctypes (Reference: https://github.com/sqlmapproject/sqlmap/issues/2952)
+            # problems with ctypes (Reference: https://github.com/gurenduben/sqlmap/issues/2952)
             _ = multiprocessing.Value('i')
         except (ImportError, OSError, AttributeError):
             pass
